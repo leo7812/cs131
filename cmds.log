@@ -1,0 +1,21 @@
+    1  passwd
+    2  wget www.github.com
+    3  git@github.com:leo7812/cs131.git
+    4  wget www.github.com
+    5  pwd
+    6  ls
+    7  open index.html
+    8  pwd
+    9  history > cmds.log
+   10  pwd
+   11  cmds.log
+   12  historu
+   13  history
+   14  cmds
+   15  cmds.log
+   16  cal
+   17  /var/log
+   18  /var/log/messages
+   19  cmds.log
+   20  history
+   21  history > cmds.log
