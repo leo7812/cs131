@@ -1,0 +1,69 @@
+    1  passwd
+    2  wget www.github.com
+    3  git@github.com:leo7812/cs131.git
+    4  wget www.github.com
+    5  pwd
+    6  ls
+    7  open index.html
+    8  pwd
+    9  history > cmds.log
+   10  pwd
+   11  cmds.log
+   12  historu
+   13  history
+   14  cmds
+   15  cmds.log
+   16  cal
+   17  /var/log
+   18  /var/log/messages
+   19  cmds.log
+   20  history
+   21  history > cmds.log
+   22  history
+   23  cmds.log
+   24  pwd
+   25  ls
+   26  open cmds.log
+   27  pwd
+   28  ls
+   29  history
+   30  pwd
+   31  ls
+   32  nano cmds.log
+   33  pwd
+   34  ls
+   35  git init
+   36  git add cmds.log
+   37  git status
+   38  git commit -m "Commiting only logs file to repo"
+   39    git config --global user.email "you@example.com"
+   40  git config --global user.email leonardo.floresgonzalez@sjsu.edu
+   41  git commit -m "Commiting only logs file to repo"
+   42  git config --global user.name LeonardoFloresGonzalez
+   43  git commit -m "Commiting only logs file to repo"
+   44  git remote add origin https://github.com/leo7812/cs131.git
+   45  git push -u origin master
+   46  git status
+   47  git add cmds.log
+   48  git status
+   49  pwd
+   50  ls
+   51  git add cmds.log
+   52  git status
+   53  git branch
+   54  history cmds.log
+   55  history > cmds.log
+   56  ls
+   57  git add cmds.log
+   58  git status
+   59  nano cmds.log
+   60  git branch
+   61  git checkout -b new-branch
+   62  git branch
+   63  git status
+   64  git commit -m "Committing from new branch"
+   65  git remote add https://github.com/leo7812/cs131.git
+   66  git branch
+   67  git push -u origin master
+   68  git status
+   69  history > cmds.log
