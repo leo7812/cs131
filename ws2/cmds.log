@@ -1,0 +1,80 @@
+  303  man tar
+  305  unzip taxidata.tar.gz
+  306  nano taxidata.tar.gz
+  309  cd taxidata.tar.gz
+  310  man tar
+  311  tar taxidata.tar.gz
+  312  tar --usage
+  313  gunzip taxidata.tar.gz
+  318  cd taxidata.tar
+  319  nano taxidata.tar
+  323  tar -xvzf taxidata.tar
+  324  tar -xvz taxidata.tar
+  325  cp /datasets/taxidata.tar.gz .
+  327  tar -xvzf taxidata.tar.gz
+  333  cat 2019-01.csv
+  338  cut -d, -f3 report_source.csv | sed 's/,/\n/g' > report_links.txt
+  339  cut -d, -f3 2019-01.csv | sed 's/,/\n/g' > 2019-01.txt
+  343  grep -m 10 '2019-03-12' 2019-01.txt
+  347  grep '3' 2019-01.txt
+  348  head -n 3 2019-01.txt
+  349  head -n 10  2019-01.txt
+  350  grep '2019\-03\-12' 2019-01.txt
+  351  egrep '2019\-03\-12' 2019-01.txt
+  352  egrep '03' 2019-01.txt
+  364  man grep
+  366  grep '2019-03-12' 2019-01.csv
+  367  grep '2019-03-12' 2019-01.csv > sample1.txt
+  374  grep 'dropoff' 2019-01.csv
+  375  grep "dropoff" 2019-01.csv
+  378  egrep '2019.03.12' 2019-01.txt
+  379  egrep 'dropoff' 2019-01.txt
+  380  egrep -n 'dropoff' 2019-01.txt
+  381  grep "2019 03 12" 2019-01.txt
+  382  egrep "2019 03 12" 2019-01.txt
+  383  egrep "2019[-]03[-]12" 2019-01.txt
+  388  grep 2018 2019-01.txt
+  389  grep 2018-1 2019-01.txt
+  390  grep 2018-12 2019-01.txt
+  391  grep 2018-12-25 2019-01.txt
+  392  grep 2019-03-12 2019-01.txt
+  393  grep 2019-03 2019-01.txt
+  395  cut -d, -f3 2019-02.csv | sed 's/,/\n/g > 2019-02.txt
+  405  cut -d, -f3 2019-02.csv | sed 's/,/\n/g' > 2019-02.txt
+  407  grep 2019-03 2019-02.txt
+  408  grep dropoff 2019-02.txt
+  409  head -n 10 2019-02.txt
+  410  head -n 100 2019-02.txt
+  411  grep pickup 2019-02.txt
+  412  grep [^0-9] 2019-02.txt
+  414  grep up 2019-02.txt
+  415  grep drop 2019-02.txt
+  416  grep 2019-03 2019-02.txt
+  419  grep 2019-03-12 2019-02.txt
+  420  cut -d, -f3 2019-03.csv | sed 's/,/\n/g' > 2019-03.txt
+  421  grep drop 2019-03.txt
+  422  grep pick  2019-03.txt
+  423  grep pick 2019-03.txt
+  424  grep 2019-03-12 2019-03.txt
+  425  tail -n 20 2019-03.txt
+  426  grep -n 20 "2019-03-12" 2019-03.txt
+  427  grep tail 20 "20" 2019-03.txt
+  428  grep -A 20 "2019-03-12" 2019-03.txt
+  431  tail -n 10 2019-03.txt
+  432  tail -n 10 2019-03.txt > allEntries.txt
+  440  grep 2019-03-12 2019-03.txt > allEntriesOf03.txt
+  442  cat allEntriesOf03.txt
+  444  tail -n 20 allEntriesOf03.txt > resultsOf03.txt
+  446  cat resultsOf03.txt
+  447  cut -d, -f3 2019-04.csv | sed 's/,/\n/g' > 2019-04.txt
+  449  grep 2019-03-12 2019-04.txt
+  450  grep 2018 2019-04.txt
+  451  head -n 100 2019-04.txt
+  452  grep 2019-03-12 2019-04.txt
+  453  grep pick 2019-03.txt
+  454  cut -d, -f3 2019-03.csv | sed 's/,/ /g' > new03.txt
+  455  head -n 100 new03.txt
+  456  head -n 100 2019-03.txt
+  458  wc allEntriesOf03.txt
+  459  wc -l allEntriesOf03.txt
+  460  wc -l allEntriesOf03.txt >> resultsOf03.txt
