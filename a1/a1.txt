@@ -1,0 +1,65 @@
+1)
+/mnt/scratch/leonardo23fa
+2)
+echo $HOME
+3)
+UID : 1009
+leonardo23fa : leonardo23fa
+groups leonardo23fa
+
+4)
+total 8
+-rw-rw-r-- 1 leonardo23fa leonardo23fa   97 Sep 11 18:47 a1.txt
+d------rw- 2 leonardo23fa leonardo23fa 4096 Sep 11 18:49 temp
+no cannot access temp dir
+no cannot ls -l
+no cannot cd temp
+no cannot create files into it
+
+5)
+no cannot move temp into temp 2
+no cannot copy temp into temp 2
+to copy entire directory you would use cp -r
+
+6)
+/proc/meminfo
+/proc/cpuinfo
+
+7)
+MemTotal:       73080512 kB
+MemFree:         1787392 kB
+MemAvailable:   58690240 kB
+Buffers:          469440 kB
+Cached:         57839808 kB
+SwapCached:        23168 kB
+Active:         38662144 kB
+Inactive:       20576960 kB
+Active(anon):     501632 kB
+Inactive(anon):  1411200 kB
+
+8)
+there are 256 processors
+POWER8
+3.425 GHz
+
+9)
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+10)
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release

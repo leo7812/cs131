@@ -1,0 +1,72 @@
+  532  vim a1.txt
+  539  cd cs131
+  541  mkdir a1
+  543  cd a1
+  545  touch a1.txt
+  547  echo $HOME
+  548  echo $HOME > a1.txt
+  549  cat a1.txt
+  550  vim a1.txt
+  551  cat a1.txt
+  552  /etc/passwd
+  553  cat /etc/passwd
+  554  groups leonardo23fa
+  556  groups leonardo23fa > a1.txt
+  559  echo $HOME
+  560  echo $HOME > a1.txt
+  563  groups leonardo23fa
+  564  groups leonardo23fa >> a1.txt
+  568  mkdir temp
+  572  cd temp
+  574  chmod 6 temp
+  575  cd ..
+  576  ls
+  577  chmod 6 temp
+  578  ls
+  579  cd temp
+  580  ls -l
+  581  cd temp >> a1.txt
+  582  cat a1.txt
+  583  ls -l >> a1.txt
+  584  cat a1.txt
+  585  vim a1.txt
+  586  ls
+  587  mkdir temp2
+  588  mv temp temp2
+  589  vim a1.txt
+  590  cp -r temp2 temp
+  592  cp -r /a1/temp /a1/temp2
+  593  vim a1.txt
+  594  ls /proc/
+  596  ls -a
+  597  ls /proc/meminfo
+  598  cat /proc/meminfo
+  599  vim a1.txt
+  600  cat /proc/cpuinfo
+  601  head /proc/meminfo
+  602  head /proc/meminfo >> a1.txt
+  603  cat a1.txt
+  604  vim a1.txt
+  606  ls /etc/
+  607  ls /etc/os-release
+  608  cat /etc/os-release
+  609  cat /etc/os-release >> a1.txt
+  610  vim a1.txt
+  611  ls -l /etc/os-release
+  612  ls -l /etc/os-release >> a1.txt
+  613  vim a1.txt
+  617  tail -100 history
+  618  tail -200 history > cmds.log
+  619  history
+  620  tail 100 history > cmds.log
+  621  tail -100 history > cmds.log
+  622  history > cmds.log
+  623  tail -100 cmds.log > cmds.log
+  624  cat cmds.log
+  625  vim cmds.log
+  626  tail -100 cmds.log
+  627  tail -100 history
+  628  history -100 > cmds.log
+  629  history -100
+  630  history
+  631  history > cmds.log
