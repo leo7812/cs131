@@ -1,0 +1,921 @@
+    1  passwd
+    2  wget www.github.com
+    3  git@github.com:leo7812/cs131.git
+    4  wget www.github.com
+    5  pwd
+    6  ls
+    7  open index.html
+    8  pwd
+    9  history > cmds.log
+   10  pwd
+   11  cmds.log
+   12  historu
+   13  history
+   14  cmds
+   15  cmds.log
+   16  cal
+   17  /var/log
+   18  /var/log/messages
+   19  cmds.log
+   20  history
+   21  history > cmds.log
+   22  history
+   23  cmds.log
+   24  pwd
+   25  ls
+   26  open cmds.log
+   27  pwd
+   28  ls
+   29  history
+   30  pwd
+   31  ls
+   32  nano cmds.log
+   33  pwd
+   34  ls
+   35  git init
+   36  git add cmds.log
+   37  git status
+   38  git commit -m "Commiting only logs file to repo"
+   39    git config --global user.email "you@example.com"
+   40  git config --global user.email leonardo.floresgonzalez@sjsu.edu
+   41  git commit -m "Commiting only logs file to repo"
+   42  git config --global user.name LeonardoFloresGonzalez
+   43  git commit -m "Commiting only logs file to repo"
+   44  git remote add origin https://github.com/leo7812/cs131.git
+   45  git push -u origin master
+   46  git status
+   47  git add cmds.log
+   48  git status
+   49  pwd
+   50  ls
+   51  git add cmds.log
+   52  git status
+   53  git branch
+   54  history cmds.log
+   55  history > cmds.log
+   56  ls
+   57  git add cmds.log
+   58  git status
+   59  nano cmds.log
+   60  git branch
+   61  git checkout -b new-branch
+   62  git branch
+   63  git status
+   64  git commit -m "Committing from new branch"
+   65  git remote add https://github.com/leo7812/cs131.git
+   66  git branch
+   67  git push -u origin master
+   68  git status
+   69  history > cmds.log
+   70  git add cmds.log
+   71  git status
+   72  git branch
+   73  git commit -m "Committing to not master but to main"
+   74  git remote add origin https://github.com/leo7812/cs131.git
+   75  git push -u origin main
+   76  git push -u origin master
+   77  git clone https://github.com/leo7812/cs131.git
+   78  pwd
+   79  ls
+   80  cd cs131
+   81  ls
+   82  ws1/
+   83  open ws
+   84  open ws1
+   85  open pwd
+   86  ls
+   87  clear
+   88  cd -
+   89  ls
+   90  rm index.html.1
+   91  ls
+   92  pwd
+   93  ls
+   94  nano cmds.log
+   95  git branch
+   96  git branch main
+   97  git branch
+   98  ls
+   99  cd cs131
+  100  ls
+  101  ws1
+  102  cd ws1
+  103  ls
+  104  git status
+  105  git branch
+  106  git add cmds.log
+  107  git add /mnt/scratch/leonardo23fa
+  108  git add /mnt/scratch/leonardo23fa/cmds.log
+  109  cp cmds.log
+  110  ls
+  111  pwd
+  112  cd -
+  113  ls
+  114  cp cmds.log
+  115  cp cmds.log /mnt/scratch/leonardo23fa
+  116  ls
+  117  pwd
+  118  ls
+  119  cp cmds.log ~/cs131
+  120  cd cs131
+  121  ls
+  122  cd ws1
+  123  pwd
+  124  ls
+  125  git status
+  126  git add cmds.log
+  127  git status
+  128  git commit -m "on same branch main"
+  129  git push
+  130  git clone https://github.com/leo7812/cs131.git
+  131  pwd
+  132  ls
+  133  cd cs131
+  134  ls
+  135  nano cmds.log
+  136  ls
+  137  pwd
+  138  ls
+  139  pwd
+  140  ls
+  141  cd -
+  142  ls
+  143  cd cs131
+  144  ls
+  145  cd ws1
+  146  powd
+  147  pwd
+  148  cd leonardofa23
+  149  cd -
+  150  ls
+  151  cd -
+  152  cd leonardo23fa
+  153  cd ..
+  154  ls
+  155  pwd
+  156  cd ..
+  157  ls
+  158  pwd
+  159  ls
+  160  rm cs131
+  161  rm -r cs131
+  162  ls
+  163  pwd
+  164  git branch
+  165  pwd
+  166  rmdir cs131
+  167  ls
+  168  cs131
+  169  cd cs131
+  170  ls
+  171  rmdir cs131
+  172  cd cs131
+  173  ls
+  174  pwd
+  175  cd -
+  176  pwd
+  177  ls
+  178  rmdir cs131
+  179  rm -r cs131
+  180  ls
+  181  pwd
+  182  cd cs131
+  183  ;ls
+  184  ls
+  185  cd cs131
+  186  ls
+  187  pwd
+  188  rmdir cs131
+  189  pwd
+  190  ls
+  191  cd ..
+  192  ls
+  193  rmdir cs131
+  194  rm -rf cs131
+  195  ls
+  196  pwd
+  197  cd ..
+  198  pwd
+  199  ls
+  200  rm -rf cs131
+  201  pwd
+  202  ls
+  203  history > cmds.log
+  204  ls
+  205  nano cmds.log
+  206  ls
+  207  pwd
+  208  ls
+  209  git status
+  210  pwd
+  211  git clone https://github.com/leo7812/cs131.git
+  212  pwd
+  213  ls
+  214  cd cs131
+  215  ls
+  216  cd ws1
+  217  git branch
+  218  mkdir ws1
+  219  ls
+  220  rm ws1
+  221  ls
+  222  mkdir ws1
+  223  ls
+  224  cd ws1
+  225  ls
+  226  cp cmds.log ~/ws1
+  227  git status
+  228  git rm ws1
+  229  ls
+  230  pwd
+  231  git add cmds.log
+  232  ls
+  233  pwd
+  234  cd ..
+  235  ls
+  236  cp cmds.log /mnt/scratch/leonardo23fa/cs131/ws1
+  237  pwd
+  238  ls
+  239  cd ws1
+  240  ls
+  241  pwd
+  242  ls
+  243  git status
+  244  pwd
+  245  cd ..
+  246  ls
+  247  pwd
+  248  ls
+  249  rm cmds.log
+  250  ls
+  251  cd ws1
+  252  ls
+  253  cd ..
+  254  ls
+  255  pwd
+  256  git status
+  257  git rm cmds.log
+  258  git status
+  259  git rm ws1
+  260  git status
+  261  pwd
+  262  git add .
+  263  git status
+  264  git commit -m "put all files in the right place in main branch"
+  265  git remote add origin https://github.com/leo7812/cs131.git
+  266  git push -u origin main
+  267  pwd
+  268  cd ..
+  269  ls
+  270  nano cmds.log
+  271  pwd
+  272  ls
+  273  cd cs131
+  274  ls
+  275  cd ws1
+  276  ls
+  277  history > cmds.log
+  278  ls
+  279  nano cmds.log
+  280  ls
+  281  pwd
+  282  cd ..
+  283  ls
+  284  pwd
+  285  cd ..
+  286  pwd
+  287  ls
+  288  rmdir cs131
+  289  rm -rf cs131
+  290  ls
+  291  git clone https://github.com/leo7812/cs131.git
+  292  ls
+  293  pwd
+  294  cd cs131
+  295  ls
+  296  cd ws1
+  297  pwd
+  298  ls
+  299  nano cmds.log
+  300  cmds.log
+  301  cp /datasets/taxidata.tar.gz .
+  302  ls
+  303  man tar
+  304  ls
+  305  unzip taxidata.tar.gz
+  306  nano taxidata.tar.gz
+  307  ls
+  308  pwd
+  309  cd taxidata.tar.gz
+  310  man tar
+  311  tar taxidata.tar.gz
+  312  tar --usage
+  313  gunzip taxidata.tar.gz
+  314  :x
+  315  :q
+  316  s
+  317  ls
+  318  cd taxidata.tar
+  319  nano taxidata.tar
+  320  ls
+  321  nano index.html
+  322  ls
+  323  tar -xvzf taxidata.tar
+  324  tar -xvz taxidata.tar
+  325  cp /datasets/taxidata.tar.gz .
+  326  ls
+  327  tar -xvzf taxidata.tar.gz
+  328  ls
+  329  pwd
+  330  ls
+  331  cd taxidata
+  332  ls
+  333  cat 2019-01.csv
+  334  ls
+  335  cd tsxidata
+  336  cd taxidata
+  337  ls
+  338  cut -d, -f3 report_source.csv | sed 's/,/\n/g' > report_links.txt
+  339  cut -d, -f3 2019-01.csv | sed 's/,/\n/g' > 2019-01.txt
+  340  ls
+  341  rm report_links.txt
+  342  ls
+  343  grep -m 10 '2019-03-12' 2019-01.txt
+  344  ls
+  345  clear
+  346  ls
+  347  grep '3' 2019-01.txt
+  348  head -n 3 2019-01.txt
+  349  head -n 10  2019-01.txt
+  350  grep '2019\-03\-12' 2019-01.txt
+  351  egrep '2019\-03\-12' 2019-01.txt
+  352  egrep '03' 2019-01.txt
+  353  :x
+  354  :q
+  355  ls
+  356  ls
+  357  cd taxidata
+  358  ls
+  359  grep 2019-03-12 2019-01.csv
+  360  ls
+  361  grep "2019-03-12" 2019-01.csv
+  362  grep -H "2019-03-12" 2019-01.csv
+  363  ls
+  364  man grep
+  365  ls
+  366  grep '2019-03-12' 2019-01.csv
+  367  grep '2019-03-12' 2019-01.csv > sample1.txt
+  368  ls
+  369  cat sample1.txt
+  370  rm sample1.txt
+  371  ls
+  372  pwd
+  373  cd 2019-01.csv
+  374  grep 'dropoff' 2019-01.csv
+  375  grep "dropoff" 2019-01.csv
+  376  cd taxidata
+  377  ls
+  378  egrep '2019.03.12' 2019-01.txt
+  379  egrep 'dropoff' 2019-01.txt
+  380  egrep -n 'dropoff' 2019-01.txt
+  381  grep "2019 03 12" 2019-01.txt
+  382  egrep "2019 03 12" 2019-01.txt
+  383  egrep "2019[-]03[-]12" 2019-01.txt
+  384  ls
+  385  pwd
+  386  cd taxidata
+  387  ls
+  388  grep 2018 2019-01.txt
+  389  grep 2018-1 2019-01.txt
+  390  grep 2018-12 2019-01.txt
+  391  grep 2018-12-25 2019-01.txt
+  392  grep 2019-03-12 2019-01.txt
+  393  grep 2019-03 2019-01.txt
+  394  ls
+  395  cut -d, -f3 2019-02.csv | sed 's/,/\n/g > 2019-02.txt
+  396  ls
+  397  2019-
+  398  2019-:Q
+  399  q
+  400  :q
+  401  :x
+  402  ls
+  403  cd taxidata
+  404  ls
+  405  cut -d, -f3 2019-02.csv | sed 's/,/\n/g' > 2019-02.txt
+  406  ls
+  407  grep 2019-03 2019-02.txt
+  408  grep dropoff 2019-02.txt
+  409  head -n 10 2019-02.txt
+  410  head -n 100 2019-02.txt
+  411  grep pickup 2019-02.txt
+  412  grep [^0-9] 2019-02.txt
+  413  ls
+  414  grep up 2019-02.txt
+  415  grep drop 2019-02.txt
+  416  grep 2019-03 2019-02.txt
+  417  clear
+  418  ls
+  419  grep 2019-03-12 2019-02.txt
+  420  cut -d, -f3 2019-03.csv | sed 's/,/\n/g' > 2019-03.txt
+  421  grep drop 2019-03.txt
+  422  grep pick  2019-03.txt
+  423  grep pick 2019-03.txt
+  424  grep 2019-03-12 2019-03.txt
+  425  tail -n 20 2019-03.txt
+  426  grep -n 20 "2019-03-12" 2019-03.txt
+  427  grep tail 20 "20" 2019-03.txt
+  428  grep -A 20 "2019-03-12" 2019-03.txt
+  429  clear
+  430  ls
+  431  tail -n 10 2019-03.txt
+  432  tail -n 10 2019-03.txt > allEntries.txt
+  433  ls
+  434  cat allEntries.txt
+  435  rm allEntries.txt
+  436  ls
+  437  tail -n 10 "2019-03-12" 2019-03.txt
+  438  ls
+  439  tail -n 10 2019-03-12 2019-03.txt
+  440  grep 2019-03-12 2019-03.txt > allEntriesOf03.txt
+  441  ls
+  442  cat allEntriesOf03.txt
+  443  tail -n 20 allEntriesOf03.txt
+  444  tail -n 20 allEntriesOf03.txt > resultsOf03.txt
+  445  ls
+  446  cat resultsOf03.txt
+  447  cut -d, -f3 2019-04.csv | sed 's/,/\n/g' > 2019-04.txt
+  448  ls
+  449  grep 2019-03-12 2019-04.txt
+  450  grep 2018 2019-04.txt
+  451  head -n 100 2019-04.txt
+  452  grep 2019-03-12 2019-04.txt
+  453  grep pick 2019-03.txt
+  454  cut -d, -f3 2019-03.csv | sed 's/,/ /g' > new03.txt
+  455  head -n 100 new03.txt
+  456  head -n 100 2019-03.txt
+  457  ls
+  458  wc allEntriesOf03.txt
+  459  wc -l allEntriesOf03.txt
+  460  wc -l allEntriesOf03.txt >> resultsOf03.txt
+  461  tail resultsOf03.txt
+  462  vim resultsOf03.txt
+  463  ls
+  464  vim cmds.log
+  465  vim history
+  466  history
+  467  :x
+  468  history > cmds.log
+  469  ls
+  470  vim cmds.log
+  471  tail 10 cmds.log
+  472  tail 102 cmds.log >> cmds.log
+  473  tail 102 cmds.log > cmds2.log
+  474  tail -102 cmds.log >> cmds.log
+  475  cat cmds.log
+  476  clear
+  477  cat cmds.log
+  478  tail -102 cmds.log
+  479  tail -5 cmds.log
+  480  vim cmds.log
+  481  history
+  482  tail -10 history
+  483  ls
+  484  rm cmds.log
+  485  ls
+  486  rm cmds2.log
+  487  ls
+  488  pwd
+  489  cd
+  490  ls
+  491  cat /taxidata/resultsOf03.txt
+  492  cat taxidata/resultsOf03.txt
+  493  ls
+  494  ls taxidat
+  495  ls taxidata
+  496  ls cs131
+  497  mkdir cs131/ws2
+  498  ls cs131
+  499  move resultsOf03.txt cs131/ws2
+  500  mv resultsOf03.txt cs131/ws2/
+  501  mv taxidata/resultsOf03.txt cs131/ws2/
+  502  ls cs131/ws2
+  503  cd cs131/ws2
+  504  pwd
+  505  ls
+  506  history > temp.txt
+  507  tail -10 temp.txt
+  508  vim temp.txt
+  509  tail -80 temp.txt > cmds.log
+  510  cat cmds.log
+  511  ls
+  512  rm temp.txt
+  513  ls
+  514  pwd
+  515  cd..
+  516  cd ..
+  517  ls
+  518  pwd
+  519  git stauts
+  520  git status
+  521  git add ws2
+  522  git status
+  523  git commit -m "Commiting results and cmds files for ws2"
+  524  git push 
+  525  pwd
+  526  ls
+  527  mkdir a1
+  528  ls
+  529  cd a1
+  530  ls
+  531  pwd
+  532  vim a1.txt
+  533  pwd
+  534  cd ..
+  535  ls
+  536  pwd
+  537  rmdir a1
+  538  ls
+  539  cd cs131
+  540  ls
+  541  mkdir a1
+  542  ls
+  543  cd a1
+  544  ls
+  545  touch a1.txt
+  546  ls
+  547  echo $HOME
+  548  echo $HOME > a1.txt
+  549  cat a1.txt
+  550  vim a1.txt
+  551  cat a1.txt
+  552  /etc/passwd
+  553  cat /etc/passwd
+  554  groups leonardo23fa
+  555  vim a1.txt
+  556  groups leonardo23fa > a1.txt
+  557  cat a1.txt
+  558  vim a1.txt
+  559  echo $HOME
+  560  echo $HOME > a1.txt
+  561  cat a1.txt
+  562  vim a1.txt
+  563  groups leonardo23fa
+  564  groups leonardo23fa >> a1.txt
+  565  cat a1.txt
+  566  vim a1.txt
+  567  ls
+  568  mkdir temp
+  569  ls
+  570  ls -l
+  571  ls
+  572  cd temp
+  573  ls
+  574  chmod 6 temp
+  575  cd ..
+  576  ls
+  577  chmod 6 temp
+  578  ls
+  579  cd temp
+  580  ls -l
+  581  cd temp >> a1.txt
+  582  cat a1.txt
+  583  ls -l >> a1.txt
+  584  cat a1.txt
+  585  vim a1.txt
+  586  ls
+  587  mkdir temp2
+  588  mv temp temp2
+  589  vim a1.txt
+  590  cp -r temp2 temp
+  591  pwd
+  592  cp -r /a1/temp /a1/temp2
+  593  vim a1.txt
+  594  ls /proc/
+  595  ls
+  596  ls -a
+  597  ls /proc/meminfo
+  598  cat /proc/meminfo
+  599  vim a1.txt
+  600  cat /proc/cpuinfo
+  601  head /proc/meminfo
+  602  head /proc/meminfo >> a1.txt
+  603  cat a1.txt
+  604  vim a1.txt
+  605  clear
+  606  ls /etc/
+  607  ls /etc/os-release
+  608  cat /etc/os-release
+  609  cat /etc/os-release >> a1.txt
+  610  vim a1.txt
+  611  ls -l /etc/os-release
+  612  ls -l /etc/os-release >> a1.txt
+  613  vim a1.txt
+  614  clear
+  615  pwd
+  616  ls
+  617  tail -100 history
+  618  tail -200 history > cmds.log
+  619  history
+  620  tail 100 history > cmds.log
+  621  tail -100 history > cmds.log
+  622  history > cmds.log
+  623  tail -100 cmds.log > cmds.log
+  624  cat cmds.log
+  625  vim cmds.log
+  626  tail -100 cmds.log
+  627  tail -100 history
+  628  history -100 > cmds.log
+  629  history -100
+  630  history
+  631  history > cmds.log
+  632  cat cmds.log
+  633  vim cmds.log
+  634  tail -10 cmds.log
+  635  tail -100 cmds.log
+  636  tail -100 cmds.log > temp.txt
+  637  cat temp.txt
+  638  rm cmds.log
+  639  temp.txt > cmds.log
+  640  cp temp.txt cmds.log
+  641  cat cmds.log
+  642  vim cmds.log
+  643  ls
+  644  cat cmds.log
+  645  clear
+  646  ls
+  647  rm temp.txt
+  648  ls
+  649  git status
+  650  git add a1
+  651  ls
+  652  cd ..
+  653  ls
+  654  cd a1
+  655  ls
+  656  git add --all
+  657  git status
+  658  git commit -m "commiting for assignment 1, a1"
+  659  git push
+  660  l
+  661  ls
+  662  cd taxidata
+  663  ls
+  664  head -10 2019-01.csv
+  665  grep loaction 2019-01.csv
+  666  grep location 2019-01.csv
+  667  head -10 2019-01.csv
+  668  grep *,*,*,*,*,*,*,151.0,* 2019-01.csv
+  669  grep *,151.0,* 2019-01.csv
+  670  grep 151.0 2019-01.csv
+  671  grep -c 151.0 2019-01.csv
+  672  ls
+  673  cd taxidata
+  674  ls
+  675  rm 2019-01.txt
+  676  rm 2019-02.txt
+  677  ls
+  678  rm 2019-04.txt
+  679  ls
+  680  rm 2019-03.txt
+  681  ls
+  682  uniq -c 2019-01.csv
+  683  uniq -c -10 2019-01.csv
+  684  head -10 2019-01.csv
+  685  wc -l 2019-01.csv
+  686  cp 2019-01.csv 01.txt
+  687  head -10 01.txt
+  688  sort 01.txt
+  689  grep -c 1.0 01.txt
+  690  wc -l 01.txt
+  691  head -10 01.txt
+  692  head -100 01.txt
+  693  egrep [A-Z],...... 01.txt > 01new.txt
+  694  head -100 01new.txt
+  695  rm 01new.txt
+  696  ls
+  697  man grep
+  698  grep -c ,151.0, 01.txt
+  699  pwd
+  700  ls
+  701  vim results.txt
+  702  grep -c ,151.0, 01.txt >> results.txt
+  703  vim results.txt
+  704  head -10 01.txt
+  705  vim results.txt
+  706  grep -c ,239.0, 01.txt
+  707  grep -c ,239.0, 01.txt >> results.txt
+  708  vim results.txt
+  709  grep -c ,236.0, 01.txt >> results.txt
+  710  vim results.txt
+  711  grep -c ,193.0, 01.txt >> results.txt
+  712  vim results.txt
+  713  grep -c ,163.0, 01.txt >> results.txt
+  714  vim results.txt
+  715  grep -c ,229.0, 01.txt >> results.txt
+  716  vim results.txt
+  717  grep -c  -vwe ,151.0, 01.txt
+  718  wc -l 01.txt
+  719  grep -vwec ,151.0, 01.txt
+  720  clear
+  721  grep -vw -e -c ,151.0, 01.txt
+  722  clear
+  723  head -25 01.txt
+  724  vim results.txt
+  725  grep -c ,141.0, 01.txt
+  726  grep -c ,141.0, 01.txt >> results.txt
+  727  vim results.txt
+  728  grep -c ,246.0, 01.txt >> results.txt
+  729  vim results.txt
+  730  grep -c ,238.0, 01.txt >> results.txt
+  731  vim results.txt
+  732  grep -c ,224.0, 01.txt >> results.txt
+  733  vim results.txt
+  734  grep -c ,170.0, 01.txt >> results.txt
+  735  vim results.txt
+  736  grep -c ,107.0, 01.txt >> results.txt
+  737  vim results.txt
+  738  grep -c -o ,.{3,4}, 01.txt
+  739  grep -c -o ",.{3,4}", 01.txt
+  740  grep -c -o ",.{3,4}," 01.txt
+  741  grep -c -o ",....," 01.txt
+  742  grep uniq -c 01.txt
+  743  uniq -c 01.txt
+  744  clear
+  745  uniq -u 01.txt
+  746  grep -o "[A-Z],....." >> onlyLocations.txt
+  747  grep -o "[A-Z],....." 01.txt >> onlyLocations.txt
+  748  ls
+  749  head onlyLocations.txt
+  750  head -100 onlyLocations.txt
+  751  wc -l onlyLocations.txt
+  752  grep "[0-9][0-9][0-9]" onlyLocations.txt
+  753  grep -o -m 10  "[0-9][0-9][0-9]" onlyLocations.txt
+  754  grep -o "[0-9][0-9][0-9]" onlyLocations.txt>> onlyLocations2.txt
+  755  head onlyLocations2.txt
+  756  sort onlyLocations2.txt
+  757  head onlyLocations2.txt
+  758  uniq onlyLocations2.txt
+  759  uniq -c onlyLocations2.txt
+  760  clear
+  761  head onlyLocations2.txt
+  762  grep .. onlyLocations2.txt
+  763  grep ".." onlyLocations2.txt
+  764  grep -o -f "[A-Z],....." 01.txt | sort -u
+  765  ls
+  766  grep -of "[A-Z],....." 01.txt | sort -u
+  767  grep -of "[A-Z],....." 01.txt
+  768  egrep -of "[A-Z],....." 01.txt
+  769  head onlyLocations
+  770  head onlyLocations.txt
+  771  grep -o "[1-9][1-9][1-9]" onlyLocations.txt >> loc.txt
+  772  head loc.txt
+  773  wc -l loc.txt
+  774  uniq loc.txt
+  775  wc -l loc.txt
+  776  sort loc.txt
+  777  uniq loc.txt
+  778  head loc.txt
+  779  sort loc.txt >> sortedloc.txt
+  780  wc -l sortedloc.txt
+  781  head sortedloc.txr
+  782  head sortedloc.txt
+  783  uniq sortedloc.txt
+  784  grep -o "[A-Z],...," 01.txt >> locations.txt
+  785  wc -l locations.txt
+  786  head locations.txt
+  787  grep -o "[A-Z],....," 01.txt >> locations.txt
+  788  grep -o "[A-Z],.....," 01.txt >> locations.txt
+  789  wc -l locations.txt
+  790  head locations.txt
+  791  grep -o "...," locations.txt >> locations2.txt
+  792  head locations2.txt
+  793  head -10 locations.txt >> test.txt
+  794  cat test.txt
+  795  sort test.txt
+  796  sort locations.txt
+  797  head locations.txt
+  798  grep -o ",.*," locations.txt >> nums.txt
+  799  sort nums.txt >> sortednums.txt
+  800  head sortednums.txt
+  801  tail sortednums.txt
+  802  tail locaions.txt
+  803  tail locations.txt
+  804  tail nums.txt
+  805  rm sortednums.txt
+  806  sort nums.txt > sortednums.txt
+  807  tail sortednums.txt
+  808  grep -c ",.....," sortednums.txt
+  809  grep -c -m 10 ",......," sortednums.txt
+  810  grep -c -m 10 ",.....," sortednums.txt
+  811  grep -m 10 ",.....," sortednums.txt
+  812  uniq -c sortednums.txt > test.txt
+  813  head test.txt
+  814  wc -l test.txt
+  815  cat test.txt
+  816  sort test.txt >> test2.txt
+  817  cat test2.txt
+  818  sort test.txt > test2.txt
+  819  cat test2.txt
+  820  grep -o "^........" test2.txt > counts.txt
+  821  cat counts.txt
+  822  sort counts.txt
+  823  rm counts.txt
+  824  cat test2.txt
+  825  grep -o "^ [1-9]" test2.txt > test3.txt
+  826  cat test3.txt
+  827  grep -o "^ [1-9]*" test2.txt > test3.txt
+  828  cat test3.txt
+  829  grep "^ [1-9]" test2.txt > test3.txt
+  830  cat tets3.txt
+  831  cat test3.txt
+  832  tail -3 test3.txt
+  833  tail -3 test3.txt > 01top3.txt
+  834  cat 01top3.txt
+  835  head 2019-02.csv
+  836  grep -o "[A-Z],....." 2019-02.csv > numsfor02.txt
+  837  head numsfor02.txt
+  838  ls
+  839  cat test3.txt
+  840  head numsfor02.txt > test5.txt
+  841  cat test5.txt
+  842  sort test5.txt
+  843  grep -o "[0-9].*" test5.txt > test6.txt
+  844  cat test6.txt
+  845  sort test6.txt
+  846  grep -o "[^,]" test5.txt > test6.txt
+  847  cat test6.txt
+  848  cat test5.txt
+  849  wc -l test5.txt
+  850  wc -l test6.txt
+  851  grep -o "[0-9][0-9][0-9]\.[0-9]" numsfor02.txt > onlynumsof2.txt
+  852  head onlynumesof2.txt
+  853  head onlynumsof2.txt
+  854  grep -o "[0-9][0-9]\.[0-9]" numsfor02.txt > onlynumsof2.txt
+  855  grep -o "[0-9][0-9][0-9]\.[0-9]" numsfor02.txt >> onlynumsof2.txt
+  856  grep -o "[0-9]\.0" numsfor02.txt >> onlynumsof2.txt
+  857  wc -l onlynumsof2.txt
+  858  grep -o ",.*" numsfor02.txt > onlynumsof2.txt
+  859  head onlynumsof2.txt
+  860  grep -o "\d*\.0" onlynumsof2.txt > justnums2.txt
+  861  head justnums2.txt
+  862  head -100 justnums2.txt
+  863  clear
+  864  rm justnums2.txt
+  865  ls
+  866  head onlynumsof2.txt
+  867  sort onlynumsof2.txt > sort2.txt
+  868  head sort2.txt
+  869  tail sort2.txt
+  870  grep ".....," sort2.txt
+  871  grep ".....\," sort2.txt
+  872  grep ",.....," sort2.txt
+  873  grep "\,.....\," sort2.txt
+  874  ls
+  875  head sort2.txt
+  876  head numsfor2.txt
+  877  tail numsfor2.txt
+  878  head loc.txt
+  879  head sort2.txt
+  880  tail sort2.txt
+  881  wc -l sort2.txt
+  882  uniq -c sort2.txt
+  883  grep -o "^ [0-9]" sort2.txt > bignums2.txt
+  884  cat bignums2.txt
+  885  uniq -c sort2.txt > sort3.txt
+  886  grep -o "^ [0-9]" sort3.txt > bignums2.txt
+  887  cat bignums2.txt
+  888  grep  "^ [0-9]" sort3.txt > bignums2.txt
+  889  cat bignums2.txt
+  890  sort bignums2.txt
+  891  tail -3 bignums2.txt > 02top3.txt
+  892  cat 02top3.txt
+  893  sort bignums2.txt > bignums2sort.txt
+  894  tail -3 bignums2sort.txt > 02top3.txt
+  895  cat 02top3.txt
+  896  ls
+  897  pwd
+  898  cd ..
+  899  ls
+  900  cd c1313
+  901  cd cs1313
+  902  cd cs131
+  903  ls
+  904  mkdir ws3
+  905  ls
+  906  cd ws3
+  907  ls
+  908  mv taxidata/01top3.txt cs131/ws3
+  909  mv /taxidata/01top3.txt /cs131/ws3
+  910  mv 01top3.txt ws3
+  911  pwd
+  912  mv /mnt/scratch/leonardo23fa/taxidata/01top3.txt /mnt/scratch/leonardo23fa/cs131/ws3/
+  913  ls
+  914  pwd
+  915  ls
+  916  mv /mnt/scratch/leonardo23fa/taxidata/02top3.txt /mnt/scratch/leonardo23fa/cs131/ws3/
+  917  ls
+  918  touch cmds.log
+  919  ls
+  920  history
+  921  history > temp.txt
