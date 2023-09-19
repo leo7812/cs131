@@ -1,0 +1,20 @@
+Script started on 2023-09-19 15:28:58-04:00
+
+bash-4.4$ 
+bash-4.4$ l
+total 16
+drwxrwxr-x 2 leonardo23fa leonardo23fa 4096 Aug 29 23:02 ws1
+drwxrwxr-x 2 leonardo23fa leonardo23fa 4096 Sep  5 15:28 ws2
+drwxrwxr-x 4 leonardo23fa leonardo23fa 4096 Sep 11 19:33 a1
+drwxrwxr-x 2 leonardo23fa leonardo23fa 4096 Sep 12 18:01 ws3
+-rw-rw-r-- 1 leonardo23fa leonardo23fa    0 Sep 19 15:28 ws4.txt
+bash-4.4$ w
+      6      47     317
+bash-4.4$ exit
+
+Script done on 2023-09-19 15:29:05-04:00
+
+Average 01: 9.05406
+
+Average 02:8.32137
+

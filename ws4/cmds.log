@@ -1,0 +1,57 @@
+  984  source ~/.bashrc
+  998  alias brc='source ~/.bashrc'
+ 1001  alias brc='source ~/.bashrc'
+ 1002  source ~/.bashrc
+ 1003  vim .bash_profile
+ 1004  vim ~/.profile
+ 1021  vim .bashrc
+ 1022  l
+ 1023  w
+ 1028  cd cs131
+ 1031  script ws4.txt
+ 1032  cat ws4.txt
+ 1037  cd taxidata
+ 1039  mkdir FARE
+ 1041  head 2019-06.csv
+ 1042  grep '145.0' 2019-06.csv > test.txt
+ 1043  head test.txt
+ 1044  grep '79.0,125.0' 2019-06.csv > test.txt
+ 1045  wc -l test.txt
+ 1046  head test.txt
+ 1047  cut -d, -f11 test.txt > fareNums01.txt
+ 1048  wc -l fareNums01.txt
+ 1049  head fareNums01.txt
+ 1050  bc -l < fareNums01.txt | awk '{s += $1} END' > total01.txt
+ 1051  bc -l < fareNums01.txt | awk '{s += $1} END > total01.txt' 
+ 1052  bc -l < fareNums01.txt | awk '{s += $1} END {print s}'
+ 1053  bc -l < fareNums01.txt | awk '{s += $1} END {print s}' > total01.txt
+ 1054  cat total01.txt
+ 1057  wc -l fareNums01.txt
+ 1058  bc < total01.txt / wc -l fareNums01.txt
+ 1059  bc -l < fareNums01.txt | awk '{s += $1} END {print s/wc -l fareNums01.txt}' > total01.txt
+ 1060  bc -l < fareNums01.txt | awk '{s += $1} END {print s/1489}' > total01.txt
+ 1061  cat total01.txt
+ 1062  mv total01.txt avg01.txt
+ 1064  cat avg01.txt
+ 1065  mv fareNums01.txt 79.0-125.0.txt
+ 1066  grep '113.0,148.0' 2019-06.csv > 113.0-148.0.txt
+ 1067  wc -l 113.0-148.0.txt
+ 1068  head 113.0-148.0.txt
+ 1069  cut -d, -f11 113.0-148.0.txt > fareNums02.txt
+ 1070  head fareNums02.txt
+ 1071  wc -l fareNums02.txt
+ 1072  bc -l < fareNums02.txt | awk '{s += $1} END {print s/2312}' > total02.txt
+ 1073  cat total02.txt
+ 1078  mv fareNums02.txt 113.0-148.0.txt
+ 1079  head 113.0-148.0.txt
+ 1083  cd cs131
+ 1086  mkdir ws4
+ 1088  mv ws4.txt ws4/
+ 1100  mv 113.0-148.0.txt /mnt/scratch/leonardo23fa/cs131/ws4
+ 1101  mv 79.0-125.0.txt /mnt/scratch/leonardo23fa/cs131/ws4
+ 1102  mv avg01.txt /mnt/scratch/leonardo23fa/cs131/ws4
+ 1103  mv avg02.txt /mnt/scratch/leonardo23fa/cs131/ws4
+ 1112  vim ws4.txt
+ 1113  cmds.log > history
+ 1114  history
+ 1115  history > cmds.log
