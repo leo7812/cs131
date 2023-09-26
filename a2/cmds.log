@@ -1,0 +1,102 @@
+  989  sort sorted0511.txt > sortsort.txt
+  994  head 2019-05.csv
+  995  grep -e '\",[3-6]\.0' 2019-05.csv | wc -l 
+  996  grep -e '\",[3-6]\.0' 2019-05.csv > passengers.txt
+  997  head passengers.txt
+  998  head -100 passengers.txt
+  999  head 2019-05.csv
+ 1000  cut -d, -f9 passengers.txt > dropOff0511.txt
+ 1001  wc -l dropOff0511.txt
+ 1002  head dropOff0511.txt
+ 1003  sort dropOff0511.txt > sortDropOff0511.txt
+ 1004  head sortDropOff0511.txt
+ 1005  wc -l sortDropOff.txt
+ 1006  wc -l sortDropOff0511.txt
+ 1007  tail sortDropOff0511.txt
+ 1008  uniq -c sortDropOff0511.txt > popularDropOff0511.txt
+ 1009  wc -l popularDropOff0511.txt
+ 1011  sort popularDropOff0511.txt > sortsort.txt
+ 1015  grep '^\ \ [0-9]' sortsort.txt
+ 1016  grep '^\ \ [0-9]' sortsort.txt > top0511DO.txt
+ 1017  tail -3 -r top0511DO.txt
+ 1018  tail -3 top0511DO.txt
+ 1019  tail -3 top0511DO.txt > top3DropOff0511.txt
+ 1020  cat top3DropOff0511.txt
+ 1021  sort -r top3DropOff0511.txt
+ 1022  cat top3DropOff0511.txt
+ 1023  sort -r top3DropOff0511.txt > top30511DropOff.txt
+ 1024  cat top30511DropOff.txt
+ 1025  tail -10 top0511DO.txt > top3DropOff0511.txt
+ 1026  sort -r top3DropOff0511.txt > top30511DropOff.txt
+ 1027  cat top30511DropOff.txt
+ 1030  head -5 2019-05.csv
+ 1031  grep -e '^[0-9]\.0,"2019-05-20' 2019-05.csv > 0520PickUps.txt
+ 1032  wc -l 0520PickUps.txt
+ 1033  head 0520PickUps.txt
+ 1034  tail 0520PickUps.txt
+ 1035  cut -d, -f8 0520PickUps.txt > PickUps0520.txt
+ 1036  head PickUps0520.txt
+ 1037  sort PickUps0520.txt > sortedPickUps0520.txt
+ 1038  uniq -c sortedPickUps0520.txt > uniq0520PickUps.txt
+ 1041  head 0520PickUps.txt
+ 1042  grep -e '[A-Z],237.0,' 0520PickUps.txt > 237PickUps.txt
+ 1043  wc -l 237PickUps.txt
+ 1044  head 237PickUps.tt
+ 1045  head 237PickUps.txt
+ 1046  cut -d, -f9 237PickUps.txt > 237DropOffs.txt
+ 1047  head 237DropOffs.txt
+ 1048  sort 237DropOffs.txt > sorted237DropOffs.txt
+ 1049  uniq -c sorted237DropOffs.txt > uniq237DropOffs.txt
+ 1052  head 2019-01.csv
+ 1053  cut -d, -f8 2019-01.csv > AllMonthsPickUps.txt
+ 1054  wc -l AllMonthsPickUps.txt
+ 1055  cut -d, -f8 2019-02.csv >> AllMonthsPickUps.txt
+ 1056  wc -l AllMonthsPickUps.txt
+ 1057  cut -d, -f8 2019-03.csv >> AllMonthsPickUps.txt
+ 1058  cut -d, -f8 2019-04.csv >> AllMonthsPickUps.txt
+ 1059  cut -d, -f8 2019-05.csv >> AllMonthsPickUps.txt
+ 1060  cut -d, -f8 2019-06.csv >> AllMonthsPickUps.txt
+ 1061  cut -d, -f8 2019-07.csv >> AllMonthsPickUps.txt
+ 1062  cut -d, -f8 2019-08.csv >> AllMonthsPickUps.txt
+ 1063  cut -d, -f8 2019-09.csv >> AllMonthsPickUps.txt
+ 1064  cut -d, -f8 2019-10.csv >> AllMonthsPickUps.txt
+ 1065  cut -d, -f8 2019-11.csv >> AllMonthsPickUps.txt
+ 1066  cut -d, -f8 2019-12.csv >> AllMonthsPickUps.txt
+ 1067  wc -l AllMonthsPickUps.txt
+ 1068  sort AllMonthsPickUps.txt > sortedAllMonthsPickUps.txt
+ 1069  wc sortedAllMonthsPickUps.txt
+ 1070  head sortedMonthsPickUps.txt
+ 1071  head sortedAllMonthsPickUps.txt
+ 1072  tail sortedAllMonthsPickUps.txt
+ 1073  tail -50 sortedAllMonthsPickUps.txt
+ 1074  vim sortedAllMonthPickUps.txt
+ 1075  rm sortedAllMonthPickUps.txt
+ 1077  uniq -c AllMonthsPickUps.txt
+ 1079  uniq -c sortedAllMonthsPickUps.txt > uniqAllMonthsPickUps.txt
+ 1080  wc -l uniqAllMonthsPickUps.txt
+ 1083  grep -e '^[1-9]' uniqAllMonthsPickUps.txt > topAllMonthsPickUps.txt
+ 1085  sort topAllMonthPickUps.txt
+ 1086  sort topAllMonthsPickUps.txt
+ 1087  sort -r topAllMonthsPickUps.txt
+ 1088  sort -r topAllMonthsPickUps.txt > sortTopAllMonthsPickUps.txt
+ 1089  head -1 sortTopAllMonthsPickUps.txt > topPickUpLocationOfYear.txt
+ 1090  cat topPickUpLocationOfYear.txt
+ 1110  cp /leonardo23fa/taxidata/avg0511.txt a2.txt
+ 1111  cp /mnt/scratch/leonardo23fa/taxidata/avg0511.txt a2.txt
+ 1112  cat a2.txt
+ 1113  /mnt/scratch/leonardo23fa/taxidata/highest0511.txt >> a2.txt
+ 1114  vim a2.txt
+ 1115  /mnt/scratch/leonardo23fa/taxidata/top0511DO.txt >> a2.txt
+ 1116  cp /mnt/scratch/leonardo23fa/taxidata/top0511DO.txt top0511DropOff.txt
+ 1117  cat top0511DropOff.txt
+ 1118  cp /mnt/scratch/leonardo23fa/taxidata/uniq0520PickUps.txt top0520DropOff.txt
+ 1119  cat top0520DropOff.txt
+ 1125  mv top30511DropOff.txt top10MayDropOff3CustomersOrMore.txt
+ 1135  cp /mnt/scratch/leonardo23fa/taxidata/top10MayDropOff3CustomersOrMore.txt top10DropOffThreeCustomersOrMore.txt
+ 1136  cp /mnt/scratch/leonardo23fa/taxidata/topPickUpLocationOfYear.txt topPickUpOfYear.txt
+ 1138  top10DropOffThreeCustomersOrMore.txt >> a2.txt
+ 1139  cat top10DropOffThreeCustomersOrMore.txt
+ 1140  top10DropOffThreeCustomersOrMore.txt >> a2.txt
+ 1141  top10DropOffThreeCustomersOrMore.txt >> a3.txt
+ 1147  cat topPickUpOfYear.txt
+ 1153  history > temp.txt

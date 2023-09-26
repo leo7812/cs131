@@ -1,0 +1,23 @@
+Average Payment May 11 2019 : $12.32349581836117791080
+
+Top Paid of 05-11 : $1309.45
+
+Top 10 Drop Off of Three Customers or More:
+39909 236.0
+37139 237.0
+36990 161.0
+33677 230.0
+28506 170.0
+27892 162.0
+27485 48.0
+26782 142.0
+25051 239.0
+24608 234.0
+
+Most popular Drop off of Most Popular PickUp in May 20 2019:
+237.0 most popular pick up
+1911 236.0
+
+Most Popular Pick UP of whole year 2019:
+3641682 237.0
+
