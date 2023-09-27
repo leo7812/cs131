@@ -1,0 +1,92 @@
+ 1004  head 234PUAugust.txt
+ 1005  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt
+ 1006  mkdir allTxt
+ 1008  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt; echo ".txt" >> allTxt/; done
+ 1012  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt; echo ".txt"; done
+ 1016  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt; echo ".txt"; done
+ 1017  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> echo ".txt"; done
+ 1018  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt << echo ".txt"; done
+ 1019  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> echo ".txt"; done
+ 1022  for line in 234PUAugust.txt; do declare -f x; x = cut -d, -f9 234PUAugust.txt; echo "$x" > "$x.txt"; done
+ 1023  for line in 234PUAugust.txt; do echo ($cut -d, -f9 234PUAugust.txt) > "($cut -d -f9 234PUAugust.txt).txt); done
+ 1024  for line in 234PUAugust.txt; do echo ($ cut -d, -f9 234PUAugust.txt) > "($ cut -d -f9 234PUAugust.txt).txt); done
+ 1025  for line in 234PUAugust.txt; do echo cut -d, -f9 234PUAugust.txt > " cut -d -f9 234PUAugust.txt.txt"; done
+ 1027  rm ' cut -d -f9 234PUAugust.txt.txt'
+ 1029  for line in 234PUAugust.txt; do echo cut -d, -f9 234PUAugust.txt >> TEST.txt; done
+ 1031  head TEST.txt
+ 1032  rm TEST.txt
+ 1033  for line in 234PUAugust.txt; do  cut -d, -f9 234PUAugust.txt >> TEST.txt; done
+ 1034  head TEST.txt
+ 1035  wc -l TEST.txt
+ 1036  for line in 234PUAugust.txt; do touch ($ cut -d, -f9 234PUAugust.txt).txt
+ 1037  for line in 234PUAugust.txt; do touch $(cut -d, -f9 234PUAugust.txt).txt; done
+ 1039  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> /allTxt/$(cut -d, -f9 234PUAugust.txt).txt; done
+ 1040  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> allTxt/$(cut -d, -f9 234PUAugust.txt).txt; done
+ 1041  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> $(cut -d, -f9 234PUAugust.txt).txt; done
+ 1042  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> /AllTxt/$(cut -d, -f9 234PUAugust.txt)\.txt; done
+ 1043  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> /allTxt/$(cut -d, -f9 234PUAugust.txt).txt; done
+ 1044  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> mv /allTxt/$(cut -d, -f9 234PUAugust.txt).txt; done
+ 1045  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> /allTxt/$(cut -d, -f9 234PUAugust.txt).txt; done
+ 1046  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> /allTxt/"$(cut -d, -f9 234PUAugust.txt)".txt; done
+ 1047  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> /allTxt/$("cut -d, -f9 234PUAugust.txt").txt; done
+ 1048  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> /allTxt/"$(cut -d, -f9 234PUAugust.txt).txt"; done
+ 1049  for line in 234PUAugust.txt; do cut -d, -f9 234PUAugust.txt >> /allTxt/"$(cut -d, -f9 234PUAugust.txt)"; done
+ 1057  cut -d, -f9 234PUAugust.txt > 234DOAugust.txt
+ 1058  sort 234DOAugust.txt > sorted234DOAugust.txt
+ 1059  uniq -c > sorted 234DOAugust.txt > uniq234DOAugust.txt
+ 1060  cat uniq234DOAugust.txt
+ 1061  sort 234DOAugust.txt
+ 1062  sort 234DOAugust.txt | uniq -c > UNIQ.txt
+ 1063  head UNIQ.txt
+ 1064  cat UNIQ.txt
+ 1065  sort UNIQ.txt > SORTED0520.txt
+ 1066  head SORTED0520.TXT
+ 1067  head SORTED0520.txt
+ 1068  cat SORTED520.txt
+ 1069  cat SORTED0520.txt
+ 1071  head 237DropOffs.rxr
+ 1072  head 237DropOffs.txt
+ 1073  sort -b 237DropOffs.txt
+ 1074  sort -b 237DropOffs.txt >SORTB.txt
+ 1075  uniq -c SORTB.txt
+ 1076  uniq -c SORTB.txt | sort -b 
+ 1077  uniq -c SORTB.txt | sort -b | wc -l
+ 1078  cat SORTED.txt
+ 1080  cat TEST.txt
+ 1085  cat SORTED0520.txt
+ 1086  grep '^\ \ [1-9]' SORTED0520.txt
+ 1087  grep '^\ \ [1-9]' SORTED0520.txt > FULLSORT.txt
+ 1088  grep '^\ \ \ [1-9]' SORTED0520.txt >> FULLSORT.txt
+ 1089  grep '^\ \ \ \ [1-9]' SORTED0520.txt >> FULLSORT.txt
+ 1090  grep '^\ \ \ \ \ [1-9]' SORTED0520.txt >> FULLSORT.txt
+ 1091  grep '^\ \ \ \ \ \ [1-9]' SORTED0520.txt >> FULLSORT.txt
+ 1092  grep '^\ \ \ \ \ \ \ [1-9]' SORTED0520.txt >> FULLSORT.txt
+ 1093  wc -l FULLSORT.txt
+ 1094  cat FULLSORT.txt
+ 1095  sort -b FULLSORT.txt
+ 1096  grep '^\ \ [1-9]' TEMP1.txt
+ 1097  grep '^\ \ [1-9]' SORTED0520.txt >> TEMP1.txt
+ 1098  grep '^\ \ \ [1-9]' SORTED0520.txt >> TEMP1.txt
+ 1099  rm TEMP1.txt
+ 1100  grep '^\ \ [1-9]' SORTED0520.txt >> TEMP1.txt
+ 1101  grep '^\ \ \ [1-9]' SORTED0520.txt >> TEMP2.txt
+ 1102  grep '^\ \ \ \ [1-9]' SORTED0520.txt >> TEMP3.txt
+ 1103  grep '^\ \ \ \ \ [1-9]' SORTED0520.txt >> TEMP4.txt
+ 1104  grep '^\ \ \ \ \ \ [1-9]' SORTED0520.txt >> TEMP5.txt
+ 1105  grep '^\ \ \ \ \ \ \ [1-9]' SORTED0520.txt >> TEMP6.txt
+ 1106  sort -b TEMP1.txt
+ 1107  sort -b TEMP2.txt
+ 1108  sort -br TEMP2.txt
+ 1109  cat TEMP2.txt
+ 1110  sort -br TEMP2.txt >> FULLSORTT.txt
+ 1111  sort -br TEMP3.txt >> FULLSORTT.txt
+ 1112  sort -br TEMP4.txt >> FULLSORTT.txt
+ 1113  sort -br TEMP5.txt >> FULLSORTT.txt
+ 1114  sort -br TEMP6.txt >> FULLSORTT.txt
+ 1115  sort -br TEMP7.txt >> FULLSORTT.txt
+ 1116  cat FULLSORTT.txt
+ 1117  head -99 FULLSORTT.txt > TOP100.txt
+ 1118  vim TOP100.txt
+ 1139  git add ws5
+ 1140  git commit -m "adding ws5"
+ 1141  git push
