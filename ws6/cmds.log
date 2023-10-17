@@ -1,0 +1,41 @@
+ 1003  ls
+ 1004  pwd
+ 1005  head 2019-11.csv
+ 1006  sed -n '/2.0/ p' 2019-11.csv | head 
+ 1007  sed -n '/$0=2.0/ p' 2019-11.csv | head 
+ 1008  sed -n '/$f02.0/ p' 2019-11.csv | head 
+ 1009  sed -n '/$f0=2.0/ p' 2019-11.csv | head 
+ 1010  sed -n '/2.0/ p' 2019-11.csv | head 
+ 1011  sed -n '1p' 2019-11.csv | head
+ 1012  sed '1p' 2019-11.csv | head
+ 1013  sed '1p' 2019-11.csv | wc
+ 1014  head
+ 1015  head 2019-11.csv
+ 1016  cut -d, -f1 2019-11.csv | head
+ 1019  cut -d, -f1 2019-11.csv > vendorids
+ 1020  wc -l 
+ 1021  wc -l vendorids
+ 1022  sed '/2.0/ p' vendorids | head
+ 1023  sed -n '/2.0/ p' vendorids | head
+ 1024  sed -n '/2.0/ p' vendorids > vendor2.csv
+ 1025  wc -l vendor2.csv
+ 1026  wc -l vendor2.csv >> ws6
+ 1027  vim ws6
+ 1028  sed '/\,//g' 2019-11.csv | head
+ 1029  sed 's/\,//g' 2019-11.csv | head
+ 1030  sed -e 's/\,//g' -e 's/\"//g' 2019-11.csv | head
+ 1031  sed -e 's/\,//g' -e 's/\"//g' -e 's/\-//g' 2019-11.csv | head
+ 1032  sed -e 's/\,//g' -e 's/\"//g' -e 's/\-//g' 2019-11.csv > no-seperators.csv
+ 1033  sed -e 's/\://g' -e 's/\"//g' -e 's/\-//g' 2019-11.csv | head
+ 1034  sed -e 's/\://g' -e 's/\"//g' -e 's/\-//g' 2019-11.csv > no-seperators.csv
+ 1035  head no-seperators.csv
+ 1036  head no-seperators.csv >> ws6
+ 1071  head 2019-11.csv
+ 1086  sed "s/\.[0-9]*//g" no-seperators.csv | head
+ 1087  sed "s/\.[0-9]*//g" no-seperators.csv > no-fractions.csv
+ 1088  wc -l no-fractions.csv
+ 1089  wc -l no-seperators.csv
+ 1090  head no-fractions.csv >> ws6
+ 1098  mv /mnt/scratch/leonardo23fa/taxidata/ws6 /mnt/scratch/leonardo23fa/cs131
+ 1111  vim ws6.txt
+ 1113  history > temp
