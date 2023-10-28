@@ -1,0 +1,61 @@
+ 1004  cd taxidata
+ 1005  ls
+ 1006  head 2019-12.csv
+ 1007  awk -F "," {print $14} 2019-12.csv | head 
+ 1008  awk -F "," '{print $14}' 2019-12.csv | head 
+ 1009  awk -F "," '{if ($17 >= 10.0) print $17}' 2019-12.csv | head 
+ 1010  awk -F "," '{if ($17 >= 10.0) print $14}' 2019-12.csv | head 
+ 1011  awk -F "," '{if ($17 >= 10.0) print $14}' 2019-12.csv >> Tips.txt
+ 1012  awk -F "," '{if ($17 >= 10.0) print $14}' 2019-12.csv << Tips.txt
+ 1013  awk -F "," '{if ($17 >= 10.0) print $14}' 2019-12.csv >> Tips.txt
+ 1014  awk -F "," '{if ($17 >= 10.0) print $14}' 2019-12.csv | wc -l
+ 1015  wc -l 2019-12.csv
+ 1016  awk -F "," '{if ($17 >= 10.0) print $14}' 2019-12.csv > Tips.txt
+ 1017  wc -l Tips.txt
+ 1018  head -n 100 Tips.txt
+ 1019  wc -l Tips.txt
+ 1020  tail -n 5841802 < tips
+ 1021  tail -n 5841802 > tips
+ 1022  tail -n 5841802 Tips.txt > tips
+ 1023  head tips
+ 1024  wc -l tips
+ 1025  rm Tips.txt
+ 1026  sort tips | uniq -c > sortedtips
+ 1027  head sortedtips
+ 1028  ls
+ 1029  head results.txt
+ 1030  mv sortedtips results.txt
+ 1031  head results.txt
+ 1032  pwd
+ 1033  cd
+ 1034  pwd
+ 1035  cd
+ 1036  ls
+ 1037  cd cs131
+ 1038  ls
+ 1039  mkdir ws7
+ 1040  ls
+ 1041  cd ws7
+ 1042  pwd
+ 1043  mv /mnt/scratch/leonardo23fa/taxidata/results.txt /mnt/scratch/leonardo23fa/cs131/ws7
+ 1044  pwd
+ 1045  ls
+ 1046  head results.txt
+ 1047  head -n 20 results.txt > ws7.txt
+ 1048  cat ws7.txt
+ 1049  rm ws7.txt
+ 1050  head -n 50 results.rxr
+ 1051  head -n 50 results.txt
+ 1052  sort results.txt | head
+ 1053  head results.txt
+ 1054  sort -n results.txt | head
+ 1055  sort -n results.txt | sort -r | head
+ 1056  sort -n results.txt |
+ 1057  sort -n results.txt | head
+ 1058  sort -u results.txt| uniq -c | sort -n | head -20
+ 1059  sort -nr results.txt | head
+ 1060  sort -nr results.txt | head -n 20 > ws7.txt
+ 1061  cat ws7.txt
+ 1062  pwd
+ 1063  ls
+ 1064  history | tail -n 200 > temp
