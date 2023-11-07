@@ -1,3 +1,6 @@
+set term dumb
+set out "filename.svg"
+
 set xlabel "Tips"
 set ylabel "Passengers"
 set xrange[0 to 10]
