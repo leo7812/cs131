@@ -9,9 +9,9 @@ set ylabel "Passengers"
 set xrange[0 to 10]
 set yrange[0 to 10]
 
-plot 'a3t3.svg' with boxes
+plot 'avgtip.dat' with boxes
 
 # commands for scatter plot
 set style fill transparent solid 0.40 noborder
 set style circle radius 0.10
-plot "a3t4.svg" u 1:2 with circles lc rgb "red"
+plot "avgtotal.dat" u 1:2 with circles lc rgb "red"
