@@ -1,5 +1,5 @@
 set term png
-set out "testgraph.svg"
+set out "testgraph.png"
 #set datafile seperator " "
 set xlabel "Nominals"
 set ylabel "Total Amount of Nominals"
