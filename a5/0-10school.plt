@@ -1,7 +1,7 @@
 set term png
-set out "0-10.png"
+set out "0-10school.png"
 set key off
 set xtics rotate
-set yrange[0:400]
+set yrange[0:200]
 
-plot '0-10.dat' using 2:xticlabel(1) with boxes
+plot '0-10school.dat' using 1:xticlabel(2) with boxes
