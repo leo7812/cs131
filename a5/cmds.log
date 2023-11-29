@@ -1,0 +1,743 @@
+   32  awk -F ';' '{if($1=="GP"){counter++}print counter}' 18-20results*
+   33  awk -F ';' '{if($1=="GP"){print}}' 18-20results*
+   34  awk -F ';' '{if($1==GP){print}}' 18-20results*
+   35  awk -F ';' '{if($1="GP") print}' 18-20results*
+   36  wc -l 
+   37  awk -F ';' '{if($1="GP") print}' 18-20results* | wc -l
+   38  awk -F ';' '{if($1="GP") print}' 18-20results* | tail -18 >>18-20.dat
+   41  cat *.dat
+   42  rm 18-20.dat
+   44  vim 18-20.dat
+   45  cat 18-20.res*
+   46  ls
+   47  cat 18-20res*
+   48  wc -l 18-20res*
+   49  vim 18-20.dat
+   50  awk -F ';' '{if($4=="U"){print}}' 18-20results*
+   51  awk -F ';' '{if($4==U){print}}' 18-20results*
+   52  awk -F ';' '{if($4==""U""){print}}' 18-20results*
+   53  awk -F ';' '{if($4==\"U\"){print}}' 18-20results*
+   54  sed "s/\"/""/g" 18-20res*
+   55  sed "s/\"/""/g" 18-20res* > 18-20.txt
+   56  cat 18-20.txt
+   57  awk -F ';' '{if($4==U){print}}' 18-20.txt
+   58  awk -F ';' '{if($4==U)print}' 18-20.txt
+   59  awk -F ';' '{if($3==U)print}' 18-20.txt
+   60  awk -F ';' '{if($5==U)print}' 18-20.txt
+   61  awk -F ';' '{if($5==U)print $0}' 18-20.txt
+   62  grep U 18-20.txt
+   63  grep U 18-20.txt | wc -l
+   64  grep U 18-20.txt | wc -l >> 18-20.dat
+   65  vim 18-20.dat
+   66  grep T 18-20.txt | wc -l >> 18-20.dat
+   67  vim 18-20.dat
+   68  awk -F ';' '{if($3==16)print}' 18-20.txt
+   69  awk -F ';' '{if($7==4)print}' 18-20.txt
+   70  awk -F ';' '{if($7==4 || $7==3)print}' 18-20.txt
+   71  awk -F ';' '{if($7==4 || $7==3)print}' 18-20.txt | wc -l
+   72  awk -F ';' '{if($7==4 || $7==3)print}' 18-20.txt | wc -l >> 18-20.dat
+   73  vim 18-20.dat
+   74  awk -F ';' '{if($8==4 || $8==3)print}' 18-20.txt | wc -l >> 18-20.dat
+   75  vim 18-20.dat
+   76  awk -F ';' '{if($9==teacher)print}' 18-20.txt | wc -l >> 18-20.dat
+   77  vim 18-20.dat
+   78  awk -F ';' '{if($9==teacher)print}' 18-20.txt
+   79  awk -F ';' '{if($9=="teacher")print}' 18-20.txt
+   80  awk -F ';' '{if($9=="teacher" || $9=="health" || $9=="services" || $9=="at_home")print}' 18-20.txt
+   81  awk -F ';' '{if($9=="teacher" || $9=="health" || $9=="services" || $9=="at_home")print}' 18-20.txt | wc -l >> 18-20.dat
+   82  vim 18-20.dat
+   83  awk -F ';' '{if($10=="teacher" || $10=="health" || $10=="services" || $10=="at_home")print}' 18-20.txt | wc -l >> 18-20.dat
+   84  vim 18-20.dat
+   85  awk -F ';' '{if($11=="home" || $10=="reputation" || $10=="course")print}' 18-20.txt | wc -l >> 18-20.dat
+   86  vim 18-20.dat
+   87  awk -F ';' '{if($11=="home" || $11=="reputation" || $11=="course")print}' 18-20.txt | wc -l >> 18-20.dat
+   88  vim 18-20.dat
+   89  awk -F ';' '{if($12=="father" || $12=="mother")print}' 18-20.txt | wc -l >> 18-20.dat
+   90  vim 18-20.dat
+   91  awk -F ';' '{if($13==2 || $13==1)print}' 18-20.txt | wc -l >> 18-20.dat
+   92  vim 18-20.dat
+   93  awk -F ';' '{if($14==2 || $14==3 || $14==4)print}' 18-20.txt | wc -l >> 18-20.dat
+   94  vim 18-20.dat
+   95  awk -F ';' '{if($15==0)print}' 18-20.txt | wc -l >> 18-20.dat
+   96  vim 18-20.dat
+   99  gnuplot
+  106  vim *plt
+  107  gnuplot
+  108  vim *plt
+  109  gnuplot
+  110  vim *.dat
+  111  gnuplot
+  114  gnuplot
+  115  vim *plt
+  116  gnuplot
+  117  vim *plt
+  118  gnuplot
+  119  vim *plt
+  120  gnuplot
+  121  vim *plt
+  122  gnuplot
+  123  vim *plt
+  124  gnuplot
+  125  vim *plt
+  126  gnuplot
+  127  vim *plt
+  128  gnuplot
+  129  vim *plt
+  130  gnuplot
+  131  vim *plt
+  132  gnuplot
+  133  vim *plt
+  134  gnuplot
+  135  vim *plt
+  136  gnuplot
+  137  vim *plt
+  138  gnuplot
+  139  vim *plt
+  140  gnuplot
+  141  vim *plt
+  142  gnuplot
+  143  vim *plt
+  144  gnuplot
+  145  vim *plt
+  146  gnuplot
+  147  vim *plt
+  148  gnuplot
+  149  vim *plt
+  150  vim *dat
+  151  gnuplot
+  152  vim *dat
+  153  vim *plt
+  154  vim *dat
+  155  vim *plt
+  156  gnuplot
+  157  vim *plt
+  158  gnuplot
+  159  vim *plt
+  160  gnuplot
+  161  vim *plt
+  162  gnuplot
+  163  vim *plt
+  164  gnuplot
+  165  vim *plt
+  166  gnuplot
+  167  vim *plt
+  168  gnuplot
+  169  vim *plt
+  170  gnuplot
+  171  vim *plt
+  172  gnuplot
+  173  vim *plt
+  174  gnuplot
+  175  vim *plt
+  176  gnuplot
+  177  vim *plt
+  178  gnuplot
+  179  vim *plt
+  180  gnuplot
+  181  vim *dat
+  182  gnuplot
+  183  vim *plt
+  184  gnuplot
+  185  vim *plt
+  186  gnuplot
+  187  vim *plt
+  188  gnuplot
+  189  vim *plt
+  190  vim *dat
+  191  vim *plt
+  192  gnuplot
+  193  vim *plt
+  194  gnuplot
+  195  vim *plt
+  196  gnuplot
+  197  vim *plt
+  198  gnuplot
+  199  vim *plt
+  200  gnuplot
+  201  vim *plt
+  202  gnuplot
+  203  vim *plt
+  204  gnuplot
+  205  vim *plt
+  206  gnuplot
+  207  vim *plt
+  208  gnuplot
+  209  vim *plt
+  210  gnuplot
+  211  vim *plt
+  212  gnuplot
+  213  ls
+  214  pwd
+  215  cd cs131
+  216  ls
+  217  cd a5
+  218  ls
+  219  pwd
+  220  ls
+  221  vim *plt
+  222  gnuplot
+  223  ls
+  224  vim *plt
+  225  ls
+  226  gnuplot
+  227  ls
+  228  vim *plt
+  229  vim *dat
+  230  vim *plt
+  231  gnuplot
+  232  ls
+  233  cat test*.svg
+  234  ls
+  235  vim *plt
+  236  gnuplot
+  237  cat test*.svg
+  238  ls
+  239  clear
+  240  ls
+  241  pw
+  242  pwd
+  243  cd ..
+  244  ls
+  464  vim *plt
+  465  gnuplot
+  466  vim *plt
+  467  gnuplot
+  468  vim *plt
+  469  gnuplot
+  470  vim *plt
+  471  gnuplot
+  472  ls
+  473  vim *plt
+  474  gnuplot
+  475  ls
+  476  cat 18-20.dat
+  477  cat 18-20.txt
+  478  awk -F ';' '{print $16}' 18-20.txt
+  479  awk -F ';' '{print $16}' 18-20.txt | sort | uniq -c
+  480  vim 18-20.dat
+  481  awk -F ';' '{print $17}' 18-20.txt | sort | uniq -c
+  482  vim 18-20.dat
+  483  awk -F ';' '{print $18}' 18-20.txt | sort | uniq -c
+  484  vim 18-20.dat
+  485  awk -F ';' '{print $19}' 18-20.txt | sort | uniq -c
+  486  vim 18-20.dat
+  487  awk -F ';' '{print $20}' 18-20.txt | sort | uniq -c
+  488  vim 18-20.dat
+  489  awk -F ';' '{print $21}' 18-20.txt | sort | uniq -c
+  490  vim 18-20.dat
+  491  awk -F ';' '{print $22}' 18-20.txt | sort | uniq -c
+  492  vim 18-20.dat
+  493  awk -F ';' '{print $22}' 18-20.txt | sort | uniq -c
+  494  awk -F ';' '{print $23}' 18-20.txt | sort | uniq -c
+  495  vim 18-20.dat
+  496  awk -F ';' '{print $24}' 18-20.txt | sort | uniq -c
+  497  vim 18-20.dat
+  498  awk -F ';' '{print $25}' 18-20.txt | sort | uniq -c
+  499  vim 18-20.dat
+  500  awk -F ';' '{print $26}' 18-20.txt | sort | uniq -c
+  501  vim 18-20.dat
+  502  awk -F ';' '{print $27}' 18-20.txt | sort | uniq -c
+  503  vim 18-20.dat
+  504  awk -F ';' '{print $27}' 18-20.txt | sort | uniq -c
+  505  awk -F ';' '{print $28}' 18-20.txt | sort | uniq -c
+  506  vim 18-20.dat
+  507  awk -F ';' '{print $29}' 18-20.txt | sort | uniq -c
+  508  vim 18-20.dat
+  509  awk -F ';' '{print $29}' 18-20.txt | sort | uniq -c
+  510  awk -F ';' '{print $30}' 18-20.txt | sort | uniq -c
+  511  vim 18-20.dat
+  512  ls *plt
+  513  vim *polt
+  514  ls *plot
+  515  ls
+  516  rm *polt
+  517  ls
+  518  clear
+  519  ls
+  520  cat 18-20.txt
+  521  awk -F ';' '{print $1}' 18-20.txt | sort | uniq -c
+  522  vim 18-20school.dat
+  523  vim 18-20school.plt
+  524  vim 18-20school.dat
+  525  vim 18-20school.plt
+  526  gnuplot
+  527  ls
+  528  awk -F ';' '{print $2}' 18-20.txt | sort | uniq -c
+  529  vim 18-20gender.dat
+  530  awk -F ';' '{print $3}' 18-20.txt | sort | uniq -c
+  531  vim 18-20age.dat
+  532  vim 18-20age.plt
+  533  vim 18-20age.dat
+  534  vim 18-20age.plt
+  535  gnuplot
+  536  ls
+  537  gnuplot
+  538  vim 18-20school.plt
+  539  vim 18-20age.plt
+  540  gnuplot
+  541  ls
+  542  vim 18-20gender*
+  543  vim 18-20gender.plt
+  544  gnuplot
+  545  ls
+  546  l
+  547  clear
+  548  ls
+  549  awk -F ';' '{print $4}' 18-20.txt | sort | uniq -c
+  550  awk -F ';' '{print $4}' 18-20.txt | sort | uniq -c > 18-20home.dat
+  551  vim 18-20hom.dat
+  552  vim 18-20home.dat
+  553  vim 18-20home.plt
+  554  gnuplot
+  555  ls
+  556  awk -F ';' '{print $5}' 18-20.txt | sort | uniq -c
+  557  awk -F ';' '{print $5}' 18-20.txt | sort | uniq -c > 18-20famsize.dat
+  558  vim 18-20famsize.dat
+  559  vim 18-20famsize.plt
+  560  gnuplot
+  561  ls
+  562  awk -F ';' '{print $6}' 18-20.txt | sort | uniq -c > 18-20famsize.dat
+  563  vim 18-20home.dat
+  564  vim 18-20home.plt
+  565  gnuplot
+  566  ls
+  567  vim 18-20famsize.dat
+  568  awk -F ';' '{print $5}' 18-20.txt | sort | uniq -c
+  569  vim 18-20famsize.dat
+  570  vim 18-20famsize.plt
+  571  gnuplot
+  572  ls
+  573  awk -F ';' '{print $6}' 18-20.txt | sort | uniq -c
+  574  vim 18-20ParentsStatus.dat
+  575  vim 18-20ParentsStatus.plt
+  576  gnuplot
+  577  vim 18-20ParentsStatus.plt
+  578  gnuplot
+  579  ls
+  580  awk -F ';' '{print $7}' 18-20.txt | sort | uniq -c
+  581  vim 18-20MothersEducation.dat
+  582  vim 18-20MothersEducation.plt
+  583  gnuplot
+  584  ls
+  585  awk -F ';' '{print $8}' 18-20.txt | sort | uniq -c
+  586  vim 18-20Fedu.dat
+  587  vim 18-20Fedu.plt
+  588  gnuplot
+  589  ls
+  590  vim 18-20Mothe*
+  591  gnuplot
+  592  ls
+  593  awk -F ';' '{print $8}' 18-20.txt | sort | uniq -c
+  594  awk -F ';' '{print $9}' 18-20.txt | sort | uniq -c
+  595  vim 18-20Mjob.dat
+  596  vim 18-20Mjob.plt
+  597  gnuplot
+  598  l
+  599  ls
+  600  clear
+  601  ls
+  602  awk -F ';' '{print $10}' 18-20.txt | sort | uniq -c
+  603  vim 18-20Fjob.dat
+  604  vim 18-20Fjob.plt
+  605  gnuplot
+  606  vim 18-20Mjo*
+  607  gnuplot
+  608  awk -F ';' '{print $11}' 18-20.txt | sort | uniq -c
+  609  vim 18-20reason.dat
+  610  vim 18-20reason.plt
+  611  gnuplot
+  612  ls
+  613  git add .
+  614  git status
+  615  git commit -m"adding some graphs for a5"
+  616  git status
+  617  git push
+  618  ls
+  619  awk -F ';' '{print $12}' 18-20.txt | sort | uniq -c
+  620  vim 18-20guardian.dat
+  621  vim 18-20guardian.plt
+  622  gnuplot
+  623  awk -F ';' '{print $13}' 18-20.txt | sort | uniq -c
+  624  vim 18-20traveltime.dat
+  625  vim 18-20traveltime.plt
+  626  gnuplot
+  627  ls
+  628  awk -F ';' '{print $14}' 18-20.txt | sort | uniq -c
+  629  vim 18-20studytime.dat
+  630  vim 18-20studytime.plt
+  631  gnuplot
+  632  awk -F ';' '{print $15}' 18-20.txt | sort | uniq -c
+  633  vim 18-20failures.dat
+  634  vim 18-20failures.plt
+  635  gnuplot
+  636  awk -F ';' '{print $16}' 18-20.txt | sort | uniq -c
+  637  vim 18-20schoolsup.dat
+  638  vim 18-20schoolsup.plt
+  639  gnuplot
+  640  awk -F ';' '{print $17}' 18-20.txt | sort | uniq -c
+  641  vim 18-20famsup.dat
+  642  vim 18-20famsup.plt
+  643  gnuplot
+  644  awk -F ';' '{print $18}' 18-20.txt | sort | uniq -c
+  645  vim 18-20paid.dat
+  646  vim 18-20paid.plt
+  647  gnuplot
+  648  awk -F ';' '{print $19}' 18-20.txt | sort | uniq -c
+  649  vim 18-20activities.dat
+  650  vim 18-20activities.plt
+  651  gnuplot
+  652  awk -F ';' '{print $20}' 18-20.txt | sort | uniq -c
+  653  vim 18-20nursery.dat
+  654  vim 18-20nursery.plt
+  655  gnuplot
+  656  awk -F ';' '{print $21}' 18-20.txt | sort | uniq -c
+  657  vim 18-20higher.dat
+  658  vim 18-20higher.plt
+  659  gnuplot
+  660  awk -F ';' '{print $22}' 18-20.txt | sort | uniq -c
+  661  vim 18-20internet.dat
+  662  vim 18-20internet.plt
+  663  gnuplot
+  664  awk -F ';' '{print $23}' 18-20.txt | sort | uniq -c
+  665  vim 18-20romantic.dat
+  666  vim 18-20romantic.plt
+  667  gnuplot
+  668  awk -F ';' '{print $24}' 18-20.txt | sort | uniq -c
+  669  vim 18-20famrel.dat
+  670  vim 18-20famrel.plt
+  671  gnuplot
+  672  awk -F ';' '{print $25}' 18-20.txt | sort | uniq -c
+  673  vim 18-20freetime.dat
+  674  vim 18-20freetime.plt
+  675  gnuplot
+  676  awk -F ';' '{print $26}' 18-20.txt | sort | uniq -c
+  677  vim 18-20goout.dat
+  678  vim 18-20goout.plt
+  679  gnuplot
+  680  awk -F ';' '{print $27}' 18-20.txt | sort | uniq -c
+  681  vim 18-20Dalc.dat
+  682  vim 18-20Dalc.plt
+  683  gnuplot
+  684  awk -F ';' '{print $28}' 18-20.txt | sort | uniq -c
+  685  vim 18-20Walc.dat
+  686  vim 18-20Walc.plt
+  687  gnuplot
+  688  awk -F ';' '{print $29}' 18-20.txt | sort | uniq -c
+  689  vim 18-20health.dat
+  690  vim 18-20health.plt
+  691  gnuplot
+  692  awk -F ';' '{print $30}' 18-20.txt | sort | uniq -c
+  693  vim 18-20absences.dat
+  694  vim 18-20absences.plt
+  695  gnuplot
+  696  ls
+  697  git add .
+  698  git commit -m"adding all 18-20 graphs"
+  699  git push
+  700  ls
+  701  vim 18-20absences.plt
+  702  gnuplot
+  703  git add
+  704  git add .
+  705  ls *csv
+  706  head student-mat.csv
+  707  wc -l student-mat.csv
+  708  awk -F ';' '{print $33}' student-mat.csv | head
+  709  awk -F ';' '{print $33}' student-mat.csv | wc -l
+  710  awk -F ';' '{print $33}' student-mat.csv | tail -5
+  711  awk -F ';' '{print $33}' student-mat.csv | tail -395 | sort
+  712  awk -F ';' '{print $33}' student-mat.csv | tail -395 | sort -n
+  713  awk -F ';' '{print $33}' student-mat.csv | tail -395 | sort -n > allGrades.dat
+  714  vim allGrades.plt
+  715  vim allGrade.dat
+  716  vim allGrades.dat
+  717  vim allGrades.plt
+  718  gnuplot
+  719  vim allGrades.plt
+  720  gnuplot
+  721  git add .
+  722  git commit -m"adding all grades graph"
+  723  git push
+  724  ls
+  725  vim allGrades.plt
+  726  vim allGrades.dat
+  727  awk -F ';' '{print $33}' student-mat.csv | tail -395 | sort -n | uniq -c > allGrades.da
+  728  vim allGrades.dat
+  729  awk -F ';' '{print $33}' student-mat.csv | tail -395 | sort -n | uniq -c > allGrades.dat
+  730  vim allGrades.dat
+  731  vim allGrades.plt
+  732  gnuplot
+  733  vim allGrades.plt
+  734  gnuplot
+  735  vim allGrades.plt
+  736  gnuplot
+  737  git add .
+  738  git commit
+  739  git push
+  740  vim allGrades.plt
+  741  gnuplot
+  742  vim allGrades.plt
+  743  gnuplot
+  744  vim allGrades.plt
+  745  gnuplot
+  746  git add .
+  747  git commit -m"changing all grade graph again"
+  748  git push
+  749  vim allGrades.plt
+  750  vim allGrades.dat
+  751  vim allGrades.plt
+  752  git add .
+  753  git status
+  754  git commit -m"trying again"
+  755  vim allGrades.plt
+  756  gnuplot
+  757  git add /
+  758  git add .
+  759  git commit -m"was commiting the wrong data"
+  760  git push 
+  761  ls
+  762  vim allGrades.plt
+  763  git add .
+  764  git commit -m"changing graph again"
+  765  git push
+  766  ls
+  767  vim allGrades.plt
+  768  gnuplot
+  769  ls
+  770  clear
+  771  ls
+  772  l
+  773  vim allGrades.plt
+  774  rm allGrades.da
+  775  ls
+  776  git add .
+  777  git commit -m"tryig again
+  778  "
+  779  git push
+  780  vim allGrades.plt
+  781  gnuplot
+  782  vim allGrades.plt
+  783  gnuplot
+  784  ls
+  785  git add .
+  786  git commit -m"again"
+  787  git push
+  788  ls
+  789  head student-mat.csv
+  790  awk -F ';' '{if($33<=10){print}}' student-mat.csv > 0-10.csv
+  791  head 0-10.csv
+  792  vim 0-10.dat
+  793  awk -F ';' '{if($1==""GP""){print}}' student-mat.csv > 0-10.csv
+  794  awk -F ';' '{if($1=="\"GP\""){print}}' student-mat.csv > 0-10.csv
+  795  sed 's/\"//g' 0-10.csv > temp
+  796  head temp
+  797  mv temp 0-10.csv
+  798  awk -F ';' '{if($1=="GP"){print}}' student-mat.csv | head
+  799  awk -F ';' '{if($1=="GP")print}' student-mat.csv | head
+  800  awk -F ';' '{if($1=="GP"){print}}' 0-10.csv | head
+  801  awk -F ';' '{if($1=="GP"){print}}' 0-10.csv | wc -l
+  802  wc -l 0-10.csv
+  803  awk -F ';' '{if($1=="MS"){print}}' 0-10.csv | wc -l
+  804  ls 0-10*
+  805  head 0-10.csv
+  806  awk -F ';' '{if($33<=10){print}} student-mat.csv | head
+  807  awk -F ';' '{if($33<=10){print}'} student-mat.csv | head
+  808  awk -F ';' '{if($33<=10){print}}' student-mat.csv | head
+  809  awk -F ';' '{if($33<=10){print}}' student-mat.csv | wc -l
+  810  awk -F ';' '{if($33<=10){print}}' student-mat.csv > 0-10.csv
+  811  wc -l 0-10.csv
+  812  sed 's/\"//g' 0-10.csv | head
+  813  sed 's/\"//g' 0-10.csv | wc -l
+  814  sed 's/\"//g' 0-10.csv > tmep
+  815  mv tmep 0-10.csv
+  816  head 0-10.csv
+  817  awk -F ';' '{if($1=='GP'){print}}' 0-10.csv | head
+  818  awk -F ';' '{if($1=='GP'){print $1}}' 0-10.csv | head
+  819  awk -F ';' '{if($1==GP){print}}' 0-10.csv | head
+  820  awk -F ';' '{if($1=="GP"){print}}' 0-10.csv | head
+  821  awk -F ';' '{if($1=="GP"){print}}' 0-10.csv | wc -l
+  822  awk -F ';' '{if($1=="GP"){print}}' 0-10.csv >> 0-10.dat
+  823  vim 0-10.dat
+  824  rm 0-10.dat
+  825  vim 0-10.dat
+  826  awk -F ';' '{if($1=="GP"){print}}' 0-10.csv | wc -l >> 0-10.dat
+  827  vim 0-10.dat
+  828  awk -F ';' '{if($4=="U"){print}}' 0-10.csv | wc -l >> 0-10.dat
+  829  vim 0-10.dat
+  830  awk -F ';' '{if($6=="T"){print}}' 0-10.csv | wc -l >> 0-10.dat
+  831  vim 0-10.dat
+  832  awk -F ';' '{if($7==3 || $7==4){print}}' 0-10.csv | wc -l >> 0-10.dat
+  833  vim 0-10.dat
+  834  awk -F ';' '{if($8==3 || $8==4){print}}' 0-10.csv | wc -l >> 0-10.dat
+  835  vim 0-10.dat
+  836  awk -F ';' '{if($9=="teacher" || $9=="health" || $9=="services" || $9=="at_home){print}}' 0-10.csv | wc -l >> 0-10.dat
+  837  awk -F ';' '{if($9=="teacher" || $9=="health" || $9=="services" || $9=="at_home"){print}}' 0-10.csv | wc -l >> 0-10.dat
+  838  vim 0-10.dat
+  839  awk -F ';' '{if($10=="teacher" || $10=="health" || $10=="services" || $10=="at_home"){print}}' 0-10.csv | wc -l >> 0-10.dat
+  840  vim 0-10.dat
+  841  awk -F ';' '{if($10=="reputation" || $10=="home" || $10=="course"){print}}' 0-10.csv | wc -l >> 0-10.dat
+  842  vim 0-10.dat
+  843  awk -F ';' '{if($11=="father" || $12=="mother"){print}}' 0-10.csv | wc -l >> 0-10.dat
+  844  vim 0-10.dat
+  845  head 0-10.csv
+  846  ls
+  847  vim 0-10school.dat
+  848  awk -F ';' '{print $1}' 0-10.csv | sort | uniq -c
+  849  awk -F ';' '{print $1}' 0-10.csv | sort | uniq -c >> 0-10school.dat
+  850  vim 0-10school.dat
+  851  vim 18-20school.plt
+  852  gnuplot
+  853  vim 18-20school.plt
+  854  vim 0-10.plt
+  855  gnuplot
+  856  vim 0-10.plt
+  857  vim 0-10school.plt
+  858  gnuplot
+  859  git add .
+  860  git commit -m"adding bottom half of data graphs"
+  861  git push
+  862  vim 0-10school.plt
+  863  gnuplot
+  864  vim 0-10school.plt
+  865  vim 0-10school.dat
+  866  vim 0-10school.plt
+  867  gnuplot
+  868  git add .
+  869  git commit -m"testing 0-10 graph"
+  870  git push
+  871  vim 0-10school.plt
+  872  awk -F ';' '{print $2}' 0-10.csv | sort | uniq -c >> 0-10school.dat
+  873  vim 0-10school.dat
+  874  awk -F ';' '{print $2}' 0-10.csv | sort | uniq -c >> 0-10gender.dat
+  875  vim 0-10gender.dat
+  876  vim 0-10gender.plt
+  877  gnuplot
+  878  awk -F ';' '{print $3}' 0-10.csv | sort | uniq -c >> 0-10age.dat
+  879  vim 0-10age.dat
+  880  vim 0-10age.plt
+  881  gnuplot
+  882  awk -F ';' '{print $4}' 0-10.csv | sort | uniq -c >> 0-10address.dat
+  883  vim 0-10address.dat
+  884  vim 0-10address.plt
+  885  gnuplot
+  886  awk -F ';' '{print $5}' 0-10.csv | sort | uniq -c >> 0-10famsize.dat
+  887  vim 0-10famsize.dat
+  888  vim 0-10famsize.plt
+  889  gnuplot
+  890  awk -F ';' '{print $6}' 0-10.csv | sort | uniq -c >> 0-10famsize.dat
+  891  awk -F ';' '{print $5}' 0-10.csv | sort | uniq -c >> 0-10famsize.dat
+  892  vim 0-10famsize.dat
+  893  awk -F ';' '{print $6}' 0-10.csv | sort | uniq -c >> 0-10Pstatus.dat
+  894  vim 0-10Pstatus.dat
+  895  vim 0-10Pstatus.plt
+  896  gnuplot
+  897  awk -F ';' '{print $7}' 0-10.csv | sort | uniq -c >> 0-10Medu.dat
+  898  vim 0-10Medu.dat
+  899  vim 0-10Medu.plt
+  900  gnuplot
+  901  awk -F ';' '{print $8}' 0-10.csv | sort | uniq -c >> 0-10Fedu.dat
+  902  vim 0-10Fedu.dat
+  903  vim 0-10Fedu.plt
+  904  gnuplot
+  905  awk -F ';' '{print $9}' 0-10.csv | sort | uniq -c >> 0-10Mjob.dat
+  906  vim 0-10Mjob.dat
+  907  vim 0-10Mjob.plt
+  908  gnuplot
+  909  awk -F ';' '{print $10}' 0-10.csv | sort | uniq -c >> 0-10Fjob.dat
+  910  vim 0-10Fjob.dat
+  911  vim 0-10Fjob.plt
+  912  gnuplot
+  913  awk -F ';' '{print $11}' 0-10.csv | sort | uniq -c >> 0-10reason.dat
+  914  vim 0-10reason.dat
+  915  vim 0-10reason.plt
+  916  gnuplot
+  917  awk -F ';' '{print $12}' 0-10.csv | sort | uniq -c >> 0-10guardian.dat
+  918  vim 0-10guardian.dat
+  919  vim 0-10guardian.plt
+  920  gnuplot
+  921  awk -F ';' '{print $13}' 0-10.csv | sort | uniq -c >> 0-10traveltime.dat
+  922  vim 0-10traveltime.dat
+  923  vim 0-10traveltime.plt
+  924  gnuplot
+  925  vim 0-10traveltime.plt
+  926  gnuplot
+  927  awk -F ';' '{print $14}' 0-10.csv | sort | uniq -c >> 0-10studytime.dat
+  928  vim 0-10studytime.dat
+  929  vim 0-10studytime.plt
+  930  gnuplot
+  931  awk -F ';' '{print $15}' 0-10.csv | sort | uniq -c >> 0-10failures.dat
+  932  vim 0-10failures.dat
+  933  vim 0-10failures.plt
+  934  gnuplot
+  935  vim 0-10failures.plt
+  936  gnuplot
+  937  awk -F ';' '{print $16}' 0-10.csv | sort | uniq -c >> 0-10schoolsup.dat
+  938  vim 0-10schoolsup.dat
+  939  vim 0-10schoolsup.plt
+  940  gnuplot
+  941  awk -F ';' '{print $17}' 0-10.csv | sort | uniq -c >> 0-10famsup.dat
+  942  vim 0-10famsup.dat
+  943  vim 0-10famsup.plt
+  944  gnuplot
+  945  awk -F ';' '{print $18}' 0-10.csv | sort | uniq -c >> 0-10paid.dat
+  946  vim 0-10paid.dat
+  947  vim 0-10paid.plt
+  948  gnuplot
+  949  awk -F ';' '{print $19}' 0-10.csv | sort | uniq -c >> 0-10activities.dat
+  950  vim 0-10activities.dat
+  951  vim 0-10activities.plt
+  952  gnuplot
+  953  awk -F ';' '{print $20}' 0-10.csv | sort | uniq -c >> 0-10nursery.dat
+  954  vim 0-10nursery.dat
+  955  vim 0-10nursery.plt
+  956  gnuplot
+  957  awk -F ';' '{print $21}' 0-10.csv | sort | uniq -c >> 0-10higher.dat
+  958  vim 0-10higher.dat
+  959  vim 0-10higher.plt
+  960  gnuplot
+  961  awk -F ';' '{print $22}' 0-10.csv | sort | uniq -c >> 0-10internet.dat
+  962  vim 0-10internet.dat
+  963  vim 0-10internet.plt
+  964  gnuplot
+  965  awk -F ';' '{print $23}' 0-10.csv | sort | uniq -c >> 0-10romantic.dat
+  966  vim 0-10romantic.dat
+  967  vim 0-10romantic.plt
+  968  gnuplot
+  969  awk -F ';' '{print $24}' 0-10.csv | sort | uniq -c >> 0-10famrel.dat
+  970  vim 0-10famrel.dat
+  971  vim 0-10famrel.plt
+  972  gnuplot
+  973  awk -F ';' '{print $25}' 0-10.csv | sort | uniq -c >> 0-10freetime.dat
+  974  vim 0-10freetime.dat
+  975  vim 0-10freetime.plt
+  976  gnuplot
+  977  awk -F ';' '{print $26}' 0-10.csv | sort | uniq -c >> 0-10goout.dat
+  978  vim 0-10goout.dat
+  979  vim 0-10goout.plt
+  980  gnuplot
+  981  awk -F ';' '{print $27}' 0-10.csv | sort | uniq -c >> 0-10Dalc.dat
+  982  vim 0-10Dalc.dat
+  983  vim 0-10Dalc.plt
+  984  gnuplot
+  985  awk -F ';' '{print $28}' 0-10.csv | sort | uniq -c >> 0-10Walc.dat
+  986  vim 0-10Walc.dat
+  987  vim 0-10Walc.plt
+  988  gnuplot
+  989  awk -F ';' '{print $29}' 0-10.csv | sort | uniq -c >> 0-10health.dat
+  990  vim 0-10health.dat
+  991  vim 0-10health.plt
+  992  gnuplot
+  993  awk -F ';' '{print $30}' 0-10.csv | sort | uniq -c >> 0-10absences.dat
+  994  vim 0-10absences.dat
+  995  vim 0-10absences.plt
+  996  gnuplot
+  997  git add .
+  998  git commit -m"commiting all graphs"
+  999  git push 
+ 1000  exit
+ 1001  ls
+ 1002  cd cs131
+ 1003  ls
+ 1004  cd a5
+ 1005  ls
+ 1006  history > templogs
